@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Math24
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fairly simple but fun card game. This web version is a substitute of the board game.
 
-## Available Scripts
+## Game Rule
 
-In the project directory, you can run:
+Try using numbers on those 4 cards to come up with a math expression that would equal 24, or decide there's no possible solution to this combination. 
 
-### `npm start`
+Number for special cards: Jack = 11, Queen = 12, King = 13, Ace = 1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The pattern of cards doesn't matter and the math expression must follow rules below: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. The math expression can only include basic arithmetic operations (+, -, *, /), also parentheses are allowed.
 
-### `npm test`
+2. Each card must be and can only be used once.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Example:**
 
-### `npm run build`
+**Cards: 5 1 1 8**   
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Solution: (5 - 1 - 1) * 8 = 24**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## A Probably Useless Instruction Guide
+Click "Start Game", a card deck will be shuffled and 4 cards will be shown.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Click "Next" to unravel the next 4 cards.
 
-### `npm run eject`
+Click "Show Solution" to show the possible solution of current 4 cards. It could be the case that no solution is possible for displayed combination.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+When a card deck finishes dealing, "New Game"instead of "Next" button will be shown. Click it to start a new round.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
