@@ -1,6 +1,7 @@
 # Math24
 
 A fairly simple but fun card game. This web version is a substitute of the board game.
+<img width="1063" alt="Screenshot" src="https://github.com/Shipwreckbay6991/Math24_Game/assets/100114865/09fbbc4c-5e69-460f-9847-cbf76f647a34">
 
 ## Game Rule
 
